@@ -11108,7 +11108,7 @@ p {
 }
 
 #about {
-  padding: 15vh 0 15rem 0;
+  padding: 16.5vh 0 16.5vh 0;
 }
 
 #team {
@@ -11120,11 +11120,11 @@ p {
 }
 
 #rewards {
-  padding: 22vh 0 22vh 0;
+  padding: 23vh 0 25vh 0;
 }
 
 #faq {
-  padding: 4rem 0 8rem 0;
+  padding: 8vh 0 10vh 0;
 }
 
 @media (min-height: 800px) {
@@ -11316,8 +11316,8 @@ header.masthead .masthead-paragraph {
 
 @media (min-width: 1367px) {
   header.masthead {
-    padding-top: 25vh;
-    padding-bottom: 25vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
   }
   header.masthead .masthead-heading {
     margin-bottom: 5rem;
