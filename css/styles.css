@@ -11108,23 +11108,41 @@ p {
 }
 
 #about {
-  padding: 20vh 0 15rem 0;
+  padding: 15vh 0 15rem 0;
 }
 
 #team {
-  padding: 17.5vh 0 20vh 0;
+  padding: 11.25vh 0 15vh 0;
 }
 
 #rarity {
-  padding: 15vh 0 15vh 0;
+  padding: 9.3vh 0 15vh 0;
 }
 
 #rewards {
-  padding: 22vh 0 30vh 0;
+  padding: 22vh 0 22vh 0;
 }
 
 #faq {
-  padding: 16vh 0 20vh 0;
+  padding: 4rem 0 8rem 0;
+}
+
+@media (min-height: 800px) {
+  #about {
+    padding: 20vh 0 25vh 0;
+  }
+  #team {
+    padding: 20vh 0 20vh 0;
+  }
+  #rarity {
+    padding: 15vh 0 15vh 0;
+  }
+  #rewards {
+    padding: 25vh 0 30vh 0;
+  }
+  #faq {
+    padding: 16vh 0 20vh 0;
+  }
 }
 
 .page-section h2.section-heading,
@@ -11303,6 +11321,13 @@ header.masthead .masthead-paragraph {
   }
   header.masthead .masthead-heading {
     margin-bottom: 5rem;
+  }
+}
+
+@media (min-height: 800px) {
+  header.masthead {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
   }
 }
 
