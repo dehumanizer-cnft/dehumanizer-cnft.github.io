@@ -16,11 +16,15 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+
 </head>
 
 <body id="page-top">
+  <!-- Loading-->
+  <div id="loading"></div>
+
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-xl fixed-top" id="mainNav">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
@@ -59,14 +63,15 @@
   <!-- About-->
   <section class="page-section" id="about">
     <div class="container">
-      <div class="">
+      <div class="row text-center">
         <!-- <h2 class="section-heading text-uppercase text-light mb">ABOUT US</h2> -->
-        <img src="./assets/img/Title/About us.png" alt="ABOUT_US" class="img-fluid">
+        <div class="col-10 col-md-8 col-lg-6"><img src="./assets/img/Title/About us.png" alt="ABOUT_US" class="img-fluid"></div>
+        
       </div>
-      <div class="row">
+      <div class="row text-center">
         <div class="col-10 col-md-8 col-lg-6">
-          <p class="text-light text-center">DEHUMANIZER, THE FIRST PIECE OF OUR MULTIVERSE, IS A UNIVERSE WITHOUT HUMAN BEING, OUR CIVILISATION, OUR KNOWLEDGE, AND OUR HISTORY ARE TRANSFERRED FROM OUR BIOLOGICAL BODY TO OUR CYPBER ONE.</p>
-          <p class="text-light text-center">DEHUMANIZER IS A ONE-TIMED LIMITED NFT COLLECTION BUILT ON THE CARDANO BLOCKCHAIN. THE COLLECTION CONSISTS OF 8888 ROBOTS UNIQUELY PROGRAMMED AND MODELLED IN HIGH-RESOLUTION 3D.</p>
+          <p class="text-light">DEHUMANIZER, THE FIRST PIECE OF OUR MULTIVERSE, IS A UNIVERSE WITHOUT HUMAN BEING, OUR CIVILISATION, OUR KNOWLEDGE, AND OUR HISTORY ARE TRANSFERRED FROM OUR BIOLOGICAL BODY TO OUR CYPBER ONE.</p>
+          <p class="text-light">DEHUMANIZER IS A ONE-TIMED LIMITED NFT COLLECTION BUILT ON THE CARDANO BLOCKCHAIN. THE COLLECTION CONSISTS OF 8888 ROBOTS UNIQUELY PROGRAMMED AND MODELLED IN HIGH-RESOLUTION 3D.</p>
         </div>
       </div>
     </div>
@@ -80,24 +85,31 @@
         <!-- <h2 class="section-heading mb-5 text-light text-uppercase">Our Team</h2> -->
         <img src="./assets/img/Title/Our team.png" alt="OUR_TEAM" class="img-fluid">
       </div>
+
+      
       <div class="row my-5">
-        <div class="col-md-6 col-lg-6">
-          <div class="team-member">
-            <!-- <img class="mx-auto rounded-circle" src="assets/img/team/Team_Thomas.png" alt="..." /> -->
+
+        <!-- <div class="col-md-6 col-lg-6" id="arnaud"> -->
+        <div class="" id="arnaud">
+          <div class="team-member text-center">
+            <img class="mx-auto rounded-circle" src="assets/img/team/Team_Arnaud.png" alt="..." />
+            <h5 class="member-name mt-4 text-light fs-2">Arnaud</h5>
+            <p class="text-light">@_arnaudblanc</p>
+            <h5 class="mt-4 text-light">Co-founder, Concept Creator, Marketer</h5>
+          </div>
+        </div>
+
+        <!-- <div class="col-md-6 col-lg-6" id="thomas"> -->
+        <div class="" id="thomas">
+          <div class="team-member text-center">
+            <img class="mx-auto rounded-circle" src="assets/img/team/Team_Thomas.png" alt="..." />
             <h5 class="member-name mt-4 text-light fs-2">Thomas</h5>
             <p class="text-light">@thomas_devfi</p>
             <h5 class="mt-4 text-light">Co-founder, Blockchain Developer</h5>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-6">
-          <div class="team-member">
-            <!-- <img class="mx-auto rounded-circle" src="assets/img/team/Team_Arnaud.png" alt="..." /> -->
-            <h5 class="member-name mt-4 text-light fs-2">Arnaud</h5>
-            <p class="text-light">@_arnaudblanc</p>
-            <h5 class="mt-4 text-light">Co-founder, Concept Creator, Marketer</h5>
-          </div>
-        </div>
+        
 
       </div>
     </div>
@@ -137,14 +149,16 @@
 
   <!-- Rewards-->
   <section class="page-section" id="rewards">
-    <div class="container justify-content-end">
-      <div class="text-center">
-        <!-- <h2 class="section-heading text-uppercase text-light">PASSIVE INCOME</h2> -->
-        <img src="./assets/img/Title/Benefit.png" alt="HOLDERS_BENEFIT" class="img-fluid">
-
-      </div>
+    <div class="container">
       <div class="row">
-        <div class="col-sm-10 col-md-8 mx-auto">
+        <div class="">
+          <!-- <h2 class="section-heading text-uppercase text-light">PASSIVE INCOME</h2> -->
+          <img src="./assets/img/Title/Benefit.png" alt="HOLDERS_BENEFIT" class="img-fluid">
+        </div>
+        
+      </div>
+      <div class="row justify-content-end">
+        <div class="col-sm-10 col-md-6">
           <p class="text-light text-center">DEHUMANIZER NFT COLLECTION IS NOT ONLY FEATURED WITH GREAT ARTS, BUT ALSO A TRULY COMMUNITY-FOCUSED PROJECT THAT GRADUALLY GENERATES REWARDS FOR OUR HOLDERS. WITH THE INTEGRATION OF CIP-027, 10% OF TOTAL TRANSACTIONS IS SHARED AMONG ALL HOLDERS.</p>
           <p class="text-light text-center">PLEASE JOIN OUR DISCORD FOR MORE DETAILS ;)</p>
         </div>
@@ -157,12 +171,10 @@
   <!-- Roadmap-->
   <div class="collections-modal modal fade" id="modalRoadmap" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content bg-dark">
+      <div class="modal-content" id="roadmap">
         <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/Close.png" alt="Close modal" /></div>
         <div class="row justify-content-center">
-          <div class="col-10">
-            <img src="./assets/img/Roadmap_FT.png" alt="" class="img-fluid">
-          </div>
+            <img src="./assets/img/Roadmap.png" alt="" class="img-fluid col-10" style="visibility: hidden;">
         </div>
       </div>
     </div>
@@ -172,11 +184,14 @@
   <!-- FAQ-->
   <section class="page-section" id="faq">
     <div class="container">
-      <div class="text-center">
-        <h2 class="section-heading mb-5 text-light text-uppercase">FAQ</h2>
+      <div class="row text-center">
+        <div class="col-sm-10 col-md-8">
+          <!-- <h2 class="section-heading mb-5 text-light text-uppercase">FAQ</h2> -->
+          <img src="./assets/img/Title/FAQ_Title.png" alt="HOLDERS_BENEFIT" class="img-fluid">
+        </div>
       </div>
       <div class="row">
-        <div class="col-sm-10 col-md-8 mx-auto">
+        <div class="col-sm-10 col-md-8">
           <div id="faqSection" class="fullwidth-container">
             <div>
               <button class="collapsible">What is the PolicyID?</button>
@@ -221,17 +236,19 @@
   <!-- Mint-->
   <div class="collections-modal modal fade" id="modalMintOptions" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content bg-dark">
+      <div class="modal-content" id="mint">
         <div class="close-modal" id="closeMint" data-bs-dismiss="modal"><img src="assets/img/Close.png" alt="Close modal" /></div>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-10">
               <div class="modal-body">
-                <h1 class="text-light text-uppercase mt-5">COMING SOON!</h1>
+                <h1 class="text-light text-uppercase mt-5">MINT</h1>
+                <p class="text-center text-light mt-5">Public Sale is live on December 14th 2021. <br> Prepare yourself ;) </p>
               </div>
             </div>
           </div>
-          <img src="./assets/img/blank-black.png" alt="" class="img-fluid">
+          <!-- <img src="./assets/img/blank-black.png" alt="" class="img-fluid"> -->
+          <p id="countdown"></p>
         </div>
       </div>
     </div>
