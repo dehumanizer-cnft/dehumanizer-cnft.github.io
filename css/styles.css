@@ -10935,13 +10935,13 @@ p {
 }
 
 #about {
-  padding: 20vh 0 20vh 0;
+  padding: 20vh 0 20 vh 0;
   background-image: url("../assets/img/Background/Background_AU_Crop.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#about > .container > .row > div {
+#about>.container>.row>div {
   margin: auto;
 }
 
@@ -10983,7 +10983,7 @@ p {
   background-size: cover;
 }
 
-#rewards > .container > .row > div {
+#rewards>.container>.row>div {
   margin: auto;
   text-align: center;
 }
@@ -11000,7 +11000,7 @@ p {
   background-size: cover;
 }
 
-#faq > .container > .row > div {
+#faq>.container>.row>div {
   margin: auto;
 }
 
@@ -11028,12 +11028,12 @@ p {
 }
 
 @media (min-width: 1076px) {
-  .team-member > img {
+  .team-member>img {
     display: none;
   }
 }
 
-@media (min-aspect-ratio: 7/4) and (min-width: 992px) {
+@media (min-width: 992px) {
   #about {
     height: 120vh;
     padding: 20vh 0 15vh 0;
@@ -11041,16 +11041,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  #about > .container > .row > div {
+  #about>.container>.row>div {
     margin-left: 1vh;
   }
-
   #about img {
     width: 60%;
     margin: 5vh 0;
   }
-
   #team {
     position: relative;
     height: 120vh;
@@ -11059,13 +11056,11 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
   #team img {
     width: 30%;
     height: auto;
     margin: 1vh 0;
   }
-  
   #rarity {
     height: 100vh;
     padding: 6vh 0 15vh 0;
@@ -11073,12 +11068,10 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
   #rarity>div>div>img {
     width: 30%;
     margin: 5vh 0;
   }
-  
   #rewards {
     height: 100vh;
     padding: 23vh 0 25vh 0;
@@ -11086,17 +11079,14 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  #rewards > .container > .row > div {
+  #rewards>.container>.row>div {
     margin-right: 1vh;
     text-align: end;
   }
-  
   #rewards img {
     width: 50%;
     margin: 5vh 0;
   }
-  
   #faq {
     height: 120vh;
     padding: 25vh 0 10vh 0;
@@ -11104,11 +11094,9 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  #faq > .container > .row > div {
+  #faq>.container>.row>div {
     margin-left: 1vh;
   }
-  
   #faq img {
     width: 20%;
     margin: 5vh 0;
@@ -11117,18 +11105,23 @@ p {
 
 @media (min-height: 800px) {
   #about {
+    height: 100vh;
     padding: 20vh 0 25vh 0;
   }
   #team {
+    height: 100vh;
     padding: 20vh 0 20vh 0;
   }
   #rarity {
+    height: 100vh;
     padding: 15vh 0 15vh 0;
   }
   #rewards {
+    height: 100vh;
     padding: 25vh 0 30vh 0;
   }
   #faq {
+    height: 100vh;
     padding: 16vh 0 20vh 0;
   }
 }
@@ -11420,22 +11413,18 @@ header.masthead .masthead-paragraph {
   font-weight: 300;
 }
 
-
-
 @media (min-width: 1076px) {
-  #arnaud{
+  #arnaud {
     position: absolute;
     bottom: 4vh;
     right: 22vw;
   }
-
-  #thomas{
+  #thomas {
     position: absolute;
     bottom: 4vh;
     left: 22vw;
-  }  
+  }
 }
-
 
 .img-brand {
   height: 2.75rem;
