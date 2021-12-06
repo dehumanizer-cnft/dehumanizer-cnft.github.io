@@ -11247,7 +11247,7 @@ header.masthead {
   padding-bottom: 12vh;
   text-align: center;
   color: #ffffff;
-  background-image: url("../assets/img/Background/Background_Main.png");
+  background-image: url("../assets/img/Background/Background_Main_mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11284,6 +11284,9 @@ header.masthead .masthead-paragraph {
   header.masthead {
     padding-top: 25vh;
     padding-bottom: 25vh;
+    background-image: url("../assets/img/Background/Background_Main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
