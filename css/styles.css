@@ -4367,11 +4367,11 @@ fieldset:disabled .btn {
 }
 
 .navbar-nav {
-  background-color: #000000;
+  /* background-color: #000000; */
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  margin: 2rem 1rem;
+  /* margin: 2rem 1rem; */
   list-style: none;
 }
 
@@ -11226,7 +11226,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #000;
+    background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
