@@ -10925,7 +10925,7 @@ html {
 /* body {
   position: relative;
   overflow-x: hidden;
-  background-image: url("../assets/img/Background-crop.png");
+  background-image: url("../assets/img/Background-crop.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10937,7 +10937,7 @@ p {
 
 #about {
   padding: 20vh 0 20 vh 0;
-  background-image: url("../assets/img/Background/Background_AU_Crop.png");
+  background-image: url("../assets/img/Background/Bg_AU_Crop.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10954,7 +10954,7 @@ p {
 #team {
   position: relative;
   padding: 20vh 0 20vh 0;
-  background-image: url("../assets/img/Background/Background_Team_mobile.png");
+  background-image: url("../assets/img/Background/Bg_Team_Mobile.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10967,7 +10967,7 @@ p {
 
 #rarity {
   padding: 20vh 0 20vh 0;
-  background-image: url("../assets/img/Background/Background_Rarity_Crop.png");
+  background-image: url("../assets/img/Background/Bg_Rarity_Crop.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10979,7 +10979,7 @@ p {
 
 #rewards {
   padding: 20vh 0 20vh 0;
-  background-image: url("../assets/img/Background/Background_Benefit_Crop.png");
+  background-image: url("../assets/img/Background/Bg_Benefit_Crop.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10996,7 +10996,7 @@ p {
 
 #faq {
   padding: 10vh 0 20vh 0;
-  background-image: url("../assets/img/Background/FAQ_Background_Crop.png");
+  background-image: url("../assets/img/Background/Bg_FAQ_Crop.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11011,13 +11011,13 @@ p {
 }
 
 #roadmap {
-  background-image: url("../assets/img/Roadmap.png");
+  background-image: url("../assets/img/Roadmap.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #mint {
-  background-image: url("../assets/img/Background/Mint_background.png");
+  background-image: url("../assets/img/Background/Bg_Mint.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11038,7 +11038,7 @@ p {
   #about {
     height: 120vh;
     padding: 20vh 0 15vh 0;
-    background-image: url("../assets/img/Background/Background_AU.png");
+    background-image: url("../assets/img/Background/Bg_AU.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -11053,7 +11053,7 @@ p {
     position: relative;
     height: 120vh;
     padding: 10vh 0 15vh 0;
-    background-image: url("../assets/img/Background/Background_Team.png");
+    background-image: url("../assets/img/Background/Bg_Team.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -11065,7 +11065,7 @@ p {
   #rarity {
     height: 100vh;
     padding: 6vh 0 15vh 0;
-    background-image: url("../assets/img/Background/Background_Rarity.png");
+    background-image: url("../assets/img/Background/Bg_Rarity.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -11076,7 +11076,7 @@ p {
   #rewards {
     height: 100vh;
     padding: 23vh 0 25vh 0;
-    background-image: url("../assets/img/Background/Background_Benefit.png");
+    background-image: url("../assets/img/Background/Bg_Benefit.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -11091,7 +11091,7 @@ p {
   #faq {
     height: 120vh;
     padding: 25vh 0 10vh 0;
-    background-image: url("../assets/img/Background/FAQ_Background.png");
+    background-image: url("../assets/img/Background/Bg_FAQ.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -11249,7 +11249,7 @@ header.masthead {
   padding-bottom: 12vh;
   text-align: center;
   color: #ffffff;
-  background-image: url("../assets/img/Background/Background_Main_mobile.png");
+  background-image: url("../assets/img/Background/Bg_Main_Mobile.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -11286,7 +11286,7 @@ header.masthead .masthead-paragraph {
   header.masthead {
     padding-top: 25vh;
     padding-bottom: 25vh;
-    background-image: url("../assets/img/Background/Background_Main.png");
+    background-image: url("../assets/img/Background/Bg_Main.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
