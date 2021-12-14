@@ -28,7 +28,7 @@
                     <i class="fas fa-bars ms-1"></i>
                 </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav text-uppercase py-4 px-5 py-lg-0 align-content-center">
+        <ul class="navbar-nav text-uppercase py-4 px-5 py-lg-0 text-center">
           <li class="nav-item"><a class="nav-link" href="#about">ABOUT US</a></li>
           <li class="nav-item"><a class="nav-link" href="#team">TEAM</a></li>
           <li class="nav-item"><a class="nav-link" href="#rarity">RARITY</a></li>
@@ -128,10 +128,10 @@
       <div class="row  my-5">
         <div class="col-lg-8 mx-auto">
           <div class="row justify-content-center">
-            <div class="col-5 col-lg-3  mx-auto"><img class="img-fluid" src="./assets/img/rarity/Common.webp" alt="common_rank_rarity_NFT"></div>
-            <div class="col-5 col-lg-3  mx-auto"><img class="img-fluid" src="./assets/img/rarity/Uncommon.webp" alt="common_rank_rarity_NFT"></div>
-            <div class="col-5 col-lg-3  mx-auto"><img class="img-fluid" src="./assets/img/rarity/Rare.webp" alt="common_rank_rarity_NFT"></div>
-            <div class="col-5 col-lg-3  mx-auto"><img class="img-fluid" src="./assets/img/rarity/Ultra rare.webp" alt="common_rank_rarity_NFT"></div>
+            <div class="col-5 col-lg-3 mx-auto"><img class="img-fluid" src="./assets/img/rarity/Common.webp" alt="common_rank_rarity_NFT"></div>
+            <div class="col-5 col-lg-3 mx-auto"><img class="img-fluid" src="./assets/img/rarity/Uncommon.webp" alt="common_rank_rarity_NFT"></div>
+            <div class="col-5 col-lg-3 mx-auto"><img class="img-fluid" src="./assets/img/rarity/Rare.webp" alt="common_rank_rarity_NFT"></div>
+            <div class="col-5 col-lg-3 mx-auto"><img class="img-fluid" src="./assets/img/rarity/Ultra rare.webp" alt="common_rank_rarity_NFT"></div>
           </div>
         </div>
         <div class="row my-5">
@@ -213,14 +213,13 @@
               <button class="collapsible">Which wallets should I use?
               </button>
               <div class="faq-content">
-                <p>Please only use wallets support Cardano NFT, such as Yoroi, Daedalus or Nami wallets.<br> DO NOT send your ADA through centralised exchanges (CEX) such as Binance and Coinbase if you don’t want to loose your ADA.
+                <p>Please only use wallets support Cardano NFT, such as Yoroi, Daedalus or Nami wallets.<br> DO NOT send your ADA through centralised exchanges (CEX) such as Binance and Coinbase if you don’t want to lose your ADA.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -229,18 +228,30 @@
   <div class="collections-modal modal fade" id="modalMintOptions" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content" id="mint">
-        <div class="close-modal" id="closeMint" data-bs-dismiss="modal"><img src="assets/img/Close.webp" alt="Close modal" /></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10">
-              <div class="modal-body">
-                <h1 class="text-light text-uppercase mt-5">MINT</h1>
-                <p class="text-center text-light mt-5">Public Sale is live on December 14th 2021. <br> Prepare yourself ;) </p>
+        <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/Close.webp" alt="Close modal" /></div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <h1 class="section-heading text-light mt-3">MINT</h1>
+            <p class="text-center text-light mt-5" id="countdown-note">Public Sale is live on December 14th 2021. <br> Prepare yourself ;) </p>
+          </div>
+          <div class="col-lg-10" id="mintable" style="display:none">
+            <div class="modal-body">
+              <div>
+                <p class="text-center text-light">The price of each Dehumanizer NFT is 28 ADA.</p>
+              </div>
+              <div>
+                <p class="text-center text-light">Please select the exact number of Dehumanizer you want to mint.<br>For every NFT you mint, 2 ADA will be automatically sent to your wallet. </p>
+                <p class="text-center text-light">If you do not mint with Nami wallet,<br>please be sure the wallet you use support NFT on Cardano.</p>
+              </div>
+              <div class="row justify-content-center">
+                <div mint-option="1" class="mintOption col-4 col-md-3 mx-auto"><a rel="noopener noreferrer" href="#" target="_blank"><img src="./assets/img/mint/1 NFT.webp" alt="" class="img-fluid"></a></div>
+                <div mint-option="2" class="mintOption col-4 col-md-3 mx-auto"><a rel="noopener noreferrer" href="#" target="_blank"><img src="./assets/img/mint/2 NFT.webp" alt="" class="img-fluid"></a></div>
+                <div mint-option="3" class="mintOption col-4 col-md-3 mx-auto"><a rel="noopener noreferrer" href="#" target="_blank"><img src="./assets/img/mint/3 NFT.webp" alt="" class="img-fluid"></a></div>
               </div>
             </div>
           </div>
-          <p id="countdown"></p>
         </div>
+        <p id="countdown"></p>
       </div>
     </div>
   </div>
@@ -261,7 +272,7 @@
 
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
-  
+
   <!-- Bootstrap core JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>

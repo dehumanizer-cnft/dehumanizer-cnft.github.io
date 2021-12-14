@@ -4602,6 +4602,10 @@ fieldset:disabled .btn {
 }
 
 @media (min-width: 1200px) {
+  #navbar-nav {
+    background: transparent;
+  }
+
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -10936,7 +10940,7 @@ p {
 }
 
 #about {
-  padding: 20vh 0 20 vh 0;
+  padding: 20vh 0 20vh 0;
   background-image: url("../assets/img/Background/Bg_AU_Crop.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11171,7 +11175,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -11212,7 +11216,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    /*background-color: transparent;*/
+    background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11225,7 +11229,7 @@ p {
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
@@ -11367,7 +11371,7 @@ header.masthead .masthead-paragraph {
 }
 
 .collections-modal .back-modal img {
-  width: 3rem;
+  width: 2.5rem;
 }
 
 .collections-modal .back-modal:hover {
@@ -11385,7 +11389,7 @@ header.masthead .masthead-paragraph {
 }
 
 .collections-modal .close-modal img {
-  width: 3rem;
+  width: 2.5rem;
 }
 
 .collections-modal .close-modal:hover {
